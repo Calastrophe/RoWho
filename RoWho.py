@@ -22,6 +22,9 @@ data = cinvres['data']
 for key in data:
     hats += 1
     rap += key['recentAveragePrice']
+if hats == 100:
+    print("NOTICE: The RAP will be wrong, the player has over 100 hats and API does not support more requests than 100. He is most likely REALLY rich.")
 print(username + "'s RAP is " + str(rap) + ' and has ' + str(hats) + ' limiteds')
+
 
 
