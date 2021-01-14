@@ -24,6 +24,6 @@ for key in data:
     rap += key['recentAveragePrice']
 if hats == 100:
     print("NOTICE: The RAP will be wrong, the player has over 100 hats and API does not support more requests than 100. He is most likely REALLY rich.")
-print(username + "'s RAP based on Hats is " + str(rap) + ' and has ' + str(hats) + ' hats')
+print(username + "'s RAP based on hats is " + str(rap) + ' and has ' + str(hats) + ' hats')
 
 
